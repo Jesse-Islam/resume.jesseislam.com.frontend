@@ -9,4 +9,4 @@ Here's the tech stack
 - https://github.com/Jesse-Islam/resume.jesseislam.com.backend
 - https://github.com/Jesse-Islam/resume.jesseislam.com.frontend
 
-These three repositories automatically update the different components that go into resume.jesseislam.com
+These three repositories automatically update the different components that go into https://resume.jesseislam.com
