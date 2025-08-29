@@ -157,17 +157,19 @@
     });
   </script>
 
-  
-<!-- Header -->
+
+
+<!-- Summary -->
 <section>
-  <h1>Jesse Islam's CV</h1>
+  <h2>Summary</h2>
   <p>
-    <strong>Jesse Islam</strong><br>
-    Montreal, QC, Canada |
-    <a href="mailto:jesse.islam@mail.mcgill.ca">jesse.islam@mail.mcgill.ca</a> |
-    <a href="https://github.com/Jesse-Islam" target="_blank">Github</a> |
-    <a href="https://linkedin.com/in/jesse-islam-154122140/" target="_blank">LinkedIn</a> |
-    <a href="https://jesseislam.com" target="_blank">JesseIslam.com</a>
+    Machine learning researcher (PhD, McGill; exp. Fall 2025, <em>available to work now</em>) in
+    <strong>causal modeling</strong> and <strong>time-to-event forecasting</strong>. Developed
+    <strong>four novel ML methods</strong> advancing generative counterfactuals, causal validation,
+    multimodal integration, and survival deep learning, with <strong>open-source releases</strong>
+    (CRAN, GitHub) and <strong>reproducible codebases</strong> (Docker, CI/CD, GCP) aligned with
+    publications. Clear communicator (instructor; award-winning TA), with approaches relevant to
+    <strong>forecasting, risk modeling, and decision support in finance</strong>.
   </p>
 </section>
 
@@ -181,25 +183,25 @@
     <h3>Machine Learning Researcher (PhD), McGill University</h3>
     <p><strong>Sep. 2018 – Sept. 2025</strong></p>
     <ul>
-      <li>Pioneered an omics-agnostic, VAE + GAN counterfactual framework, unlocking 10 insights per feature.</li>
-      <li>Developed Perturbation Impact Networks, a novel approach to map how one gene causally affects others.</li>
-      <li>Reduced stakeholder interpretation time by ∼70% by streamlining 10 metrics into a 5-tier causal framework.</li>
-      <li>Cut causal analysis runtime ∼10x and increased throughput ∼100x with an optimized, efficient pipeline.</li>
-      <li>Prevented $50K+ in wasted experiments through a novel multi-omics framework for cross-tissue dynamics.</li>
+      <li>Pioneered a counterfactual modeling framework (VAE+GAN) to test “what-if” scenarios on high-dimensional data, improving evidence-based decision-making at scale.</li>
+      <li>Designed a novel causal network inference method to show how single changes cascade across features toward a goal, pinpointing the most effective levers for outcomes.</li>
+      <li>Engineered a causal pipeline that cut analysis runtime &sim;10× and raised throughput &sim;100×, speeding decisions.</li>
+      <li>Reduced interpretation time &sim;70% by merging 10 metrics into a concise 5-tier causal evidence framework.</li>
+      <li>Prevented $40K+ in wasted research spend by rescuing a stalled project with a novel data-driven framework.</li>
       <li>
-        Built an HPC pre-processing pipeline for RNA-Seq data. 
-        <a href="https://bitbucket.org/Jesse-Islam/genpipes/src/master/" target="_blank">Bitbucket</a>
+        Built an HPC pipeline for large-scale preprocessing, streamlining workflows for stakeholders.
+        <a href="https://bitbucket.org/Jesse-Islam/genpipes/src/master/" target="_blank" rel="noopener noreferrer">Bitbucket</a>
       </li>
       <li>
-        Created a deep-learning framework for time-varying effects, dynamically capturing hazard shifts to boost survival prediction accuracy. 
-        <a href="https://github.com/Jesse-Islam/cbnn" target="_blank">Github</a> |
-        <a href="https://www.sciencedirect.com/science/article/pii/S2666827024000112" target="_blank">Publication</a> |
-        <a href="https://codeocean.com/capsule/6297135/tree/v1" target="_blank">Docker</a>
+        Built a time-to-event ML framework for forecasting event outcomes.
+        <a href="https://github.com/Jesse-Islam/cbnn" target="_blank" rel="noopener noreferrer">GitHub</a> |
+        <a href="https://www.sciencedirect.com/science/article/pii/S2666827024000112" target="_blank" rel="noopener noreferrer">Publication</a> |
+        <a href="https://codeocean.com/capsule/6297135/tree/v1" target="_blank" rel="noopener noreferrer">Docker</a>
       </li>
       <li>
-        Co-developed <strong>casebase</strong> in R for survival analysis. 
-        <a href="https://CRAN.R-project.org/package=casebase" target="_blank">CRAN</a> |
-        <a href="https://journal.r-project.org/articles/RJ-2022-052/RJ-2022-052.pdf" target="_blank">Publication</a>
+        Co-developed <strong>casebase</strong> (R) for event-rate modeling; published and released on CRAN.
+        <a href="https://CRAN.R-project.org/package=casebase" target="_blank" rel="noopener noreferrer">CRAN</a> |
+        <a href="https://journal.r-project.org/articles/RJ-2022-052/RJ-2022-052.pdf" target="_blank" rel="noopener noreferrer">Publication</a>
       </li>
     </ul>
   </div>
@@ -208,15 +210,15 @@
     <h3>myPath Facilitator, McGill</h3>
     <p><strong>Jan. 2022 – Aug. 2022</strong></p>
     <ul>
-      <li>Guided interdisciplinary student groups (size 5–10) through reflection sessions, building facilitation skills.</li>
+      <li>Facilitated reflection sessions for interdisciplinary cohorts (groups of 5–10), improving action-value alignment.</li>
     </ul>
   </div>
 
   <div class="item">
-    <h3>Course Instructor, Introduction to Statistical Software, McGill</h3>
+    <h3>Course Instructor, Introduction to Statistical Software (R), McGill</h3>
     <p><strong>Sep. 2021 – Dec. 2021</strong></p>
     <ul>
-      <li>Improved student comprehension by tailoring R programming best-practice lectures to diverse student profiles.</li>
+      <li>Designed and delivered R best-practice lectures; improved comprehension across mixed backgrounds.</li>
     </ul>
   </div>
 
@@ -224,8 +226,7 @@
     <h3>Teaching Assistant, Computer Systems, McGill</h3>
     <p><strong>Sep. 2017 – Dec. 2019</strong></p>
     <ul>
-      <li>Won a student-nominated award for being an impactful teaching assistant (Dec. 2019).</li>
-      <li>Translated technical complexity into accessible insights for 100+ learners.</li>
+      <li>Won student-nominated award (Dec 2019). Simplified complex concepts for 100+ learners.</li>
     </ul>
   </div>
 </section>
@@ -236,27 +237,32 @@
 <section>
   <h2>Selected Publications</h2>
   <ul>
-    <li><strong>Goal-oriented in silico perturbation:</strong> a data-agnostic framework using GANs and variational inference for counterfactual analyses. <em>Islam, J. et al.</em> (<strong>Expected 2025</strong>)</li>
-    <li><strong>In silico validation of gene expression perturbations</strong> affecting progression-free incidence in TCGA. <em>Islam, J. et al.</em> (<strong>Expected 2025</strong>)</li>
     <li>
-      <strong>Case-Base Neural Network:</strong> Survival analysis with time-varying, higher-order interactions. <em>Islam, J. et al.</em> |
-      <a href="https://github.com/Jesse-Islam/cbnn" target="_blank">Github</a> (<strong>2024</strong>)
+      <strong>Goal-oriented <em>in silico</em> perturbation:</strong> a data-agnostic framework using GANs and variational inference for counterfactual analyses.
+      <em>Islam, J. et al.</em> (<strong>Expected 2025</strong>)
     </li>
     <li>
-      <strong>casebase:</strong> An Alternative Framework for Survival Analysis and Comparison of Event Rates. <em>Bhatnagar, S. R., Turgeon, M., Islam, J. et al.</em> |
-      <a href="https://CRAN.R-project.org/package=casebase" target="_blank">CRAN</a> (<strong>2022</strong>)
+      <strong>Case-Base Neural Network:</strong> Survival analysis with time-varying, higher-order interactions.
+      <em>Islam, J., et al.</em> | <em>Machine Learning with Applications</em> |
+      <a href="https://github.com/Jesse-Islam/cbnn" target="_blank" rel="noopener noreferrer">GitHub</a> (<strong>2024</strong>)
+    </li>
+    <li>
+      <strong>casebase:</strong> An Alternative Framework for Survival Analysis and Comparison of Event Rates.
+      <em>Bhatnagar, S. R., Turgeon, M., Islam, J. et al.</em> |
+      <a href="https://CRAN.R-project.org/package=casebase" target="_blank" rel="noopener noreferrer">CRAN</a> (<strong>2022</strong>)
     </li>
   </ul>
 </section>
 
 <hr>
 
-<!-- Technologies -->
+<!-- Technical Tools -->
 <section>
-  <h2>Technologies</h2>
+  <h2>Technical Tools</h2>
   <ul>
-    <li><strong>Programming Languages:</strong> R, Python (PyTorch), bash</li>
-    <li><strong>Tools & Platforms:</strong> LaTeX, SLURM, GCP, Microsoft Word, Excel, PowerPoint</li>
+    <li><strong>Programming &amp; Frameworks:</strong> Python, R, Bash, PyTorch, scikit-learn, NumPy/pandas, Keras</li>
+    <li><strong>ML/Modeling:</strong> Causality, Time-to-event, Generative AI (VAEs, GANs), LLMs/RAG</li>
+    <li><strong>Systems &amp; MLOps:</strong> Docker, HPC (SLURM), GCP, Terraform, CI/CD (Cloud Build), Git/GitHub</li>
   </ul>
 </section>
 
@@ -267,26 +273,22 @@
   <h2>Projects</h2>
   <ul>
     <li>
-      <strong>Cloud Resume Challenge</strong> | 
-      <a href="https://github.com/Jesse-Islam/resume.jesseislam.terraform" target="_blank">Terraform</a> | 
-      <a href="https://github.com/Jesse-Islam/resume.jesseislam.com.backend" target="_blank">Backend</a> | 
-      <a href="https://github.com/Jesse-Islam/resume.jesseislam.com.frontend" target="_blank">Frontend</a> | 
-      <a href="https://resume.jesseislam.com/" target="_blank">Website</a><br>
-      Demonstrated skill with cloud applications (GCP), database APIs, Terraform for IaC and Cloud Build for CI/CD.
+      <strong>RAG for arXiv</strong> —
+      <a href="https://github.com/Jesse-Islam/arxiv_rag" target="_blank" rel="noopener noreferrer">GitHub</a><br>
+      LLM/RAG toolkit to cluster/summarize abstracts; showcases NLP + retrieval and evaluation workflow.
     </li>
     <li>
-      <strong>Proof of Concept for Deep Learning Time-to-Event Prediction Framework</strong><br>
-      District 3 / IVADO AI Genomics Competition, 1st Place & Innovation Award (May 2020).
+      <strong>Pivotstage</strong> —
+      <a href="https://github.com/Jesse-Islam/pivotstage" target="_blank" rel="noopener noreferrer">GitHub</a><br>
+      Real-time subject tracking UI using deep-learning-based object detection.
     </li>
     <li>
-      <strong>Pivotstage</strong><br>
-      Real-time AI subject tracking tool leveraging deep-learning object detection with a GUI. 
-      <a href="https://github.com/Jesse-Islam/pivotstage" target="_blank">Github</a>
-    </li>
-    <li>
-      <strong>Retrieval-Augmented Generation for arXiv</strong><br>
-      AI-powered Python toolkit leveraging transformer LLMs for summarizing and clustering arXiv abstracts. 
-      <a href="https://github.com/Jesse-Islam/arxiv_rag" target="_blank">Github</a>
+      <strong>Cloud Resume Challenge</strong> —
+      <a href="https://resume.jesseislam.com/" target="_blank" rel="noopener noreferrer">Website</a> |
+      <a href="https://github.com/Jesse-Islam/resume.jesseislam.terraform" target="_blank" rel="noopener noreferrer">Terraform</a> |
+      <a href="https://github.com/Jesse-Islam/resume.jesseislam.com.backend" target="_blank" rel="noopener noreferrer">Backend</a> |
+      <a href="https://github.com/Jesse-Islam/resume.jesseislam.com.frontend" target="_blank" rel="noopener noreferrer">Frontend</a><br>
+      GCP app with database APIs, IaC (Terraform) and CI/CD (Cloud Build).
     </li>
   </ul>
 </section>
@@ -297,7 +299,8 @@
 <section>
   <h2>Education</h2>
   <ul>
-    <li><strong>Ph.D. Quantitative Life Sciences</strong>, McGill (Montreal, QC)<br>Sep. 2018 – Dec. 2025</li>
-    <li><strong>B.Sc. Joint Major in Computer Science and Biology</strong>, McGill (Montreal, QC)<br>Sep. 2014 – May 2018</li>
+    <li><strong>Ph.D. Quantitative Life Sciences</strong>, McGill (Montreal, QC) — <em>Expected Fall 2025</em></li>
+    <li><strong>B.Sc. Joint Major in Computer Science and Biology</strong>, McGill (Montreal, QC) — <em>Sep. 2014 – May 2018</em></li>
   </ul>
 </section>
+
